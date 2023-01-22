@@ -1,0 +1,17 @@
+.body{
+    background-color: black;
+}
+
+.header{
+    &__img{
+        width:100%;
+        
+    }
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

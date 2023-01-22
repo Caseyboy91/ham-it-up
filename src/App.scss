@@ -1,0 +1,13 @@
+.poster {
+  height: 35vh;
+  width: 17vw;
+  margin: 2rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgb(218, 165, 32);
+
+  &:hover {
+    box-shadow: 3px 3px 5px white;
+    height: 37vh;
+    width: 19vw;
+  }
+}

@@ -1,0 +1,52 @@
+.body {
+  background-color: black;
+  height: 100%;
+}
+
+.header {
+  &__img {
+    width: 100%;
+  }
+}
+
+.show {
+  &__container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    padding: 5rem;
+    padding-top:0;
+  }
+  &__title{
+    align-self: center;
+    font-size:3.3rem;
+    margin-top:0;
+  }
+  &__open{
+    align-self:center;
+    font-size:1.2rem;
+    margin-bottom:0;
+    padding-bottom:0;
+
+  }
+  &__description{
+    font-size:1.4rem;
+    margin:1.5rem;
+    text-align: center;
+  }
+
+  &__website{
+    font-size:1.8rem;
+    width:50%;
+    padding:1.5rem;
+    align-self:center;
+  }
+  &__button{
+    align-self:center;
+    text-decoration:none;
+    margin: 2rem;
+    color:white;
+  }
+}
